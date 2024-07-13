@@ -1,0 +1,522 @@
+div#nothing {
+ color:#ddd;
+ font-size:5em
+}
+span#nothing {
+ line-height:1.7em;
+ padding-left:13px
+}
+@media screen and (max-width:30em) {
+ #http-error-message>h2 {
+  font-size:small
+ }
+ #triangle-icon {
+  font-size:3em
+ }
+}
+@media screen and (min-width:30em) and (max-width:45em) {
+ #http-error-message>h2 {
+  font-size:medium
+ }
+ #triangle-icon {
+  font-size:6em
+ }
+}
+@media screen and (min-width:45em) {
+ #http-error-message>h2 {
+  font-size:x-large
+ }
+ #triangle-icon {
+  font-size:12em
+ }
+}
+div#splash {
+ position:absolute;
+ z-index:9999;
+ background-color:#fff;
+ width:100%;
+ height:100%
+}
+div.wait-glyph {
+ margin-top:50px
+}
+span.icon-6x {
+ font-size:10em
+}
+.manualDescContainer {
+ display:flex;
+ margin-top:10px
+}
+.manualText {
+ flex:1 1 50%;
+ text-align:right
+}
+.manualDescription {
+ flex:1 1 50%;
+ text-align:left;
+ font-size:smaller
+}
+.manualDescription ol {
+ padding-left:30px
+}
+button.device {
+ margin-left:5px;
+ margin-right:5px
+}
+div#selection-group {
+ margin:5px
+}
+div#validation-group {
+ margin:5px
+}
+div#hamburger>div#hamburger-controls {
+ display:none
+}
+div#hamburger #content {
+ display:none
+}
+div#hamburger-text {
+ margin-left:10px;
+ margin-right:10px;
+ margin-top:5px
+}
+hamburger #inlineCancel,
+hamburger #inlineInfo {
+ display:inline-block
+}
+@media only screen and (max-width:480px) {
+ div#hamburger>div#hamburger-controls {
+  display:inline-block;
+  margin-left:15px;
+  cursor:pointer
+ }
+ div#hamburger #content {
+  display:block;
+  position:absolute;
+  z-index:10;
+  width:100%;
+  height:314px;
+  background-color:#fff;
+  padding-left:20px;
+  padding-right:20px
+ }
+ div#hamburger #bottom_menu {
+  background-color:#fff
+ }
+ div#hamburger #hamburger-i18n {
+  width:100%;
+  position:fixed;
+  top:50px
+ }
+}
+div#help-container {
+ top:0;
+ left:0;
+ position:fixed;
+ background-color:rgba(25,25,25,.5);
+ width:100%;
+ height:100%;
+ z-index:10
+}
+div#help-modal {
+ margin:5%;
+ background-color:#fff;
+ padding:15px;
+ border-radius:5px;
+ max-height:80%;
+ overflow:scroll
+}
+div#help {
+ margin-top:15px
+}
+div#help-title>h2 {
+ font-size:32px
+}
+div#help-modal div.custom-image {
+ height:60px
+}
+div#help-modal div.custom-image>img.logo {
+ width:auto;
+ height:55px;
+ position:absolute;
+ left:50%;
+ top:50%;
+ transform:translateY(-50%) translateX(-50%)
+}
+@media only screen and (max-width:800px) {
+ div#help-modal div.custom-image>img.logo {
+  width:auto;
+  height:40px
+ }
+}
+@media only screen and (max-width:480px) {
+ div#help-modal div.custom-image {
+  height:40px
+ }
+ div#help-modal div.custom-image>img.logo {
+  width:auto;
+  height:30px
+ }
+}
+button.device {
+ margin-left:5px;
+ margin-right:5px
+}
+div#selection-group {
+ margin:5px
+}
+div#validation-group {
+ margin:5px
+}
+button.device {
+ margin-left:5px;
+ margin-right:5px
+}
+div#selection-group {
+ margin:5px
+}
+div#validation-group {
+ margin:5px
+}
+.error {
+ background-color:#c9302c
+}
+.warn {
+ background-color:#ec971f
+}
+.info {
+ background-color:#31b0d5
+}
+.success {
+ background-color:#449d44
+}
+div#message-handle {
+ height:inherit;
+ width:20px;
+ cursor:pointer;
+ padding-right:8px
+}
+span#info-icon {
+ position:relative;
+ font-size:4em;
+ left:15px;
+ float:left
+}
+div#message-container {
+ color:#fff
+}
+div#message-content {
+ text-align:center;
+ background-color:inherit;
+ padding-bottom:15px
+}
+div#message-content>div#heading-row>h3 {
+ margin-top:0;
+ padding-top:5px
+}
+div#message-controls {
+ padding-top:5px
+}
+span#message {
+ width:70%;
+ margin:auto;
+ display:block;
+ font-size:small;
+ padding:5px
+}
+div.message-button {
+ padding-top:7px
+}
+message-banner #spinner-row {
+ height:50px
+}
+@media only screen and (max-width:480px) {
+ div#message-content>div#heading-row>h3 {
+  font-size:16px
+ }
+ span#info-icon {
+  display:none
+ }
+ div#message-container {
+  cursor:pointer;
+  -webkit-transition-duration:.3s;
+  -moz-transition-duration:.3s;
+  -o-transition-duration:.3s;
+  transition-duration:.3s;
+  border-radius:0 10px 10px 0;
+  -moz-box-shadow:0 11px 22px 0 rgba(0,0,0,.75)
+ }
+ div#message-content {
+  width:100%;
+  z-index:1030;
+  -webkit-transition-duration:.3s;
+  -moz-transition-duration:.3s;
+  -o-transition-duration:.3s;
+  transition-duration:.3s;
+  overflow:hidden
+ }
+ span#message {
+  width:100%
+ }
+ span#headingTxt {
+  width:100%
+ }
+}
+.tooltips {
+ position:relative;
+ display:inline
+}
+.tooltips span {
+ position:absolute;
+ width:auto;
+ color:#fff;
+ background:#000;
+ height:30px;
+ line-height:30px;
+ text-align:center;
+ visibility:hidden;
+ border-radius:6px;
+ padding:0 5px 0 5px
+}
+.tooltips span:after {
+ content:'';
+ position:absolute;
+ top:100%;
+ left:50%;
+ margin-left:-8px;
+ width:0;
+ height:0;
+ border-top:8px solid #000;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent
+}
+.tooltips:hover span {
+ visibility:visible;
+ opacity:.8;
+ bottom:30px;
+ left:50%;
+ margin-left:-76px;
+ z-index:999
+}
+.tooltips {
+ position:relative;
+ display:inline
+}
+.tooltips span {
+ position:absolute;
+ width:140px;
+ color:#fff;
+ background:#000;
+ height:30px;
+ line-height:30px;
+ text-align:center;
+ visibility:hidden;
+ border-radius:6px
+}
+.tooltips span:after {
+ content:'';
+ position:absolute;
+ top:100%;
+ left:50%;
+ margin-left:-8px;
+ width:0;
+ height:0;
+ border-top:8px solid #000;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent
+}
+.tooltips:hover span {
+ visibility:visible;
+ opacity:.8;
+ bottom:30px;
+ left:50%;
+ margin-left:-76px;
+ z-index:999
+}
+.tooltipsRefreshPhoneNumber #textHover span {
+ position:absolute;
+ width:20em;
+ color:#fff;
+ background:#000;
+ height:30px;
+ line-height:30px;
+ text-align:center;
+ visibility:hidden;
+ border-radius:6px
+}
+.tooltipsRefreshPhoneNumber #textHover span:after {
+ position:absolute;
+ top:100%;
+ left:50%;
+ width:0;
+ height:0;
+ border-top:8px solid #000;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent
+}
+.tooltipsRefreshPhoneNumber:hover #textHover span {
+ visibility:visible;
+ opacity:.8;
+ left:50%;
+ z-index:999;
+ margin-left:-106px;
+ bottom:27px
+}
+div.break-word {
+ word-break:break-all
+}
+button.menu-button {
+ margin-top:5px;
+ margin-bottom:5px;
+ width:200px
+}
+.inline {
+ display:inline-block;
+ padding-left:5px;
+ padding-right:5px
+}
+div.side-menu {
+ padding-bottom:10px
+}
+div.side-menu label {
+ display:inline
+}
+.side-menu .text-left,
+.side-menu .text-right {
+ padding-right:5px;
+ padding-left:5px
+}
+refresh-phone-number {
+ position:absolute;
+ padding-left:5px
+}
+@media only screen and (max-width:768px) {
+ refresh-phone-number {
+  position:inherit;
+  padding-left:5px
+ }
+}
+@media only screen and (max-width:480px) {
+ div.side-menu {
+  padding-bottom:0
+ }
+ div.side-menu h4 {
+  font-size:1em
+ }
+ div.menu-title {
+  display:none
+ }
+}
+div#i18n>button>img.flag {
+ margin-top:-1px;
+ margin-left:5px;
+ margin-right:5px
+}
+div#i18n .btn {
+ border-top-right-radius:0;
+ border-top-left-radius:0
+}
+div#selection-group {
+ color:#555;
+ font-size:100%
+}
+body {
+ font-size:14px
+}
+div[class^=col-] {
+ padding-right:0;
+ padding-left:0
+}
+.row {
+ margin-right:0;
+ margin-left:0
+}
+.container-fluid {
+ padding-right:0;
+ padding-left:0
+}
+.reset-padding {
+ padding:0
+}
+div#leftMenuLayout {
+ min-height:115px;
+ word-break:break-all
+}
+div#hamburger-layout {
+ width:100%;
+ display:none
+}
+div#centerPieceLayout {
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:5px;
+ min-height:100px
+}
+div#footerLayout {
+ min-height:50px
+}
+.tooltips {
+ position:relative;
+ display:inline
+}
+.tooltips span {
+ position:absolute;
+ width:140px;
+ color:#fff;
+ background:#000;
+ height:30px;
+ line-height:30px;
+ text-align:center;
+ visibility:hidden;
+ border-radius:6px
+}
+.tooltips span:after {
+ content:'';
+ position:absolute;
+ top:100%;
+ left:50%;
+ margin-left:-8px;
+ width:0;
+ height:0;
+ border-top:8px solid #000;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent
+}
+.tooltips:hover span {
+ visibility:visible;
+ opacity:.8;
+ bottom:30px;
+ left:50%;
+ margin-left:-76px;
+ z-index:999
+}
+button span.fa {
+ padding-right:7px
+}
+.btn {
+ padding:6px 10px
+}
+custom-component {
+ display:block
+}
+@media only screen and (max-width:480px) {
+ body {
+  font-size:12px
+ }
+ div#hamburger-layout {
+  display:inline-block
+ }
+ div.hiddenable-text {
+  display:none
+ }
+}
+@media only screen and (max-width:480px) {
+ div#bottomLayout,
+ div#footerLayout,
+ div#rigthMenuLayout {
+  display:none
+ }
+ div#leftMenuLayout {
+  min-height:0
+ }
+}
